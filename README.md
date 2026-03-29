@@ -116,11 +116,6 @@ Le serveur local fait le lien entre votre navigateur et Stockfish.
 
 **Barre d'évaluation** — Affiche qui est en avantage dans la partie. Plus la barre est blanche, mieux c'est pour les blancs. Plus elle est noire, mieux c'est pour les noirs.
 
-![Screenshot](screenshot.png%202)       
-
-
-
-
 
 ![Screenshot](demo2.png)    
 
@@ -143,6 +138,8 @@ Assurez-vous d'utiliser la version **v9.5** du script (le fichier `chess-coach-v
 **Stockfish introuvable au démarrage**
 
 Vérifiez que le fichier `.exe` de Stockfish est bien copié dans le dossier `chess-server`. Le nom du fichier doit commencer par `stockfish`.
+
+![Screenshot](screenshot.png%202)     
 
 ---
 
