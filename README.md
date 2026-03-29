@@ -115,7 +115,11 @@ Le serveur local fait le lien entre votre navigateur et Stockfish.
 **Niveau Stockfish** — De 1 (analyse rapide et superficielle) à 20 (niveau grand maître, calcul long).
 
 **Barre d'évaluation** — Affiche qui est en avantage dans la partie. Plus la barre est blanche, mieux c'est pour les blancs. Plus elle est noire, mieux c'est pour les noirs.
+           
+            
             serveur allumé :                           serveur éteint :
+
+
 ![Serveur allumé](serveur-on.png)         ![Serveur éteint](serveur-off.png)
 
 ---
