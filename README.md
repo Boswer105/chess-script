@@ -167,7 +167,7 @@ l'utilisation de ce script contre des joueurs peut entreîner le banissement dé
 Lorsque le serveur est connecté, ce script atteint un niveau d'environ 3600 elo et une profondeur maximum de 40, soit 20 coups complets et 40 demi-coups. 
 La profondeur de stockfish dépendra principalement de la puissance de votre processeur. 
 Stockfish a une précision globale de 99. 
-Si le serveur n'est pas connecté, ce sera stockfish WASM qui tournera en local sur votrte PC qui calculera les coups. 
+Si le serveur n'est pas connecté, ce sera stockfish WASM qui tournera en local sur votre PC qui calculera les coups. 
 Stockfish WASM a un niveau elo d'environ 2200 elo et une profondeur maximum de 17 demi-coups. Il est bien plus lent que stockfish 
 natal pour calculer les coups. 
 
