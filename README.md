@@ -93,7 +93,7 @@ Le serveur local fait le lien entre ton navigateur et Stockfish.
 ## 🎮 Utilisation
 
 1. Lance le serveur (Étape 6)
-2. Va sur **[chess.com](https://www.chess.com)** et commence une partie contre un bot
+2. Va sur **[chess.com](https://www.chess.com)** et commence une partie 
 3. Le panneau **Chess Coach** apparaît en bas à droite de l'écran
 4. Clique **"▶ Coach ON"** pour activer l'analyse
 5. Une flèche verte indique le meilleur coup à jouer
