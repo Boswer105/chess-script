@@ -123,10 +123,6 @@ Vérifie que Tampermonkey est bien activé (clique sur l'icône en haut à droit
 
 Le serveur Python n'est pas lancé. Retourne à l'Étape 6. Le point devient vert quand le serveur tourne correctement.
 
-**La promotion de pion ne se fait pas automatiquement**
-
-Assure-toi d'utiliser la version **v9.5** du script (le fichier `chess-coach-v9_5_user.js`).
-
 **Stockfish introuvable au démarrage**
 
 Vérifie que le fichier `.exe` de Stockfish est bien copié dans le dossier `chess-server`. Le nom du fichier doit commencer par `stockfish`.
@@ -135,7 +131,8 @@ Vérifie que le fichier `.exe` de Stockfish est bien copié dans le dossier `che
 
 ## ⚠️ Avertissement
 
-Ce script est conçu pour **s'entraîner contre des bots** sur chess.com. L'utiliser en partie classée contre de vrais joueurs est contraire aux conditions d'utilisation de chess.com.
+Ce script est conçu pour **s'entraîner contre des bots** sur chess.com. L'utiliser en partie classée contre de vrais joueurs est contraire aux conditions d'utilisation de chess.com. Utiliser 
+ce script dans des parties contre joueurs peut entraîner le banissement définitif de votre comte chess.com. 
 
 ---
 
