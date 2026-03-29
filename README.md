@@ -116,6 +116,8 @@ Le serveur local fait le lien entre votre navigateur et Stockfish.
 
 **Barre d'évaluation** — Affiche qui est en avantage dans la partie. Plus la barre est blanche, mieux c'est pour les blancs. Plus elle est noire, mieux c'est pour les noirs.
 
+![Screenshot](screenshot.png2)
+
 ---
 
 ## ❓ Problèmes fréquents
