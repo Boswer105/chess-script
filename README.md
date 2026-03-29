@@ -2,6 +2,8 @@
 
 Un script qui analyse vos parties sur **chess.com** en temps réel grâce à Stockfish, affiche les meilleurs coups avec des flèches, et peut jouer automatiquement à votre place (mode auto-play).
 
+![Demo](2026032918543-ezgif.com-video-to-gif-converter.gif)
+
 ---
 
 ## 📋 Ce dont vous avez besoin
