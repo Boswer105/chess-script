@@ -2,7 +2,13 @@
 Un script qui analyse tes parties sur chess.com en temps réel grâce à Stockfish, affiche les meilleurs coups avec des flèches, et peut jouer automatiquement à ta place (mode auto-play).
 
 📋 Ce dont tu as besoin
-OutilQuoiGratuit ?NavigateurBrave, Chrome ou Firefox✅TampermonkeyExtension navigateur✅Python 3.7+Langage de programmation✅StockfishMoteur d'échecs✅Ce scriptLe fichier .js de ce repo✅
+
+Un navigateur : Brave, Chrome ou Firefox (gratuit)
+Tampermonkey : une extension navigateur (gratuit)
+Python 3.7+ : un langage de programmation (gratuit)
+Stockfish : le moteur d'échecs (gratuit)
+Ce script : les fichiers de ce repo (gratuit)
+
 
 🪜 Installation étape par étape
 Étape 1 — Installer Tampermonkey
@@ -11,9 +17,8 @@ Tampermonkey est une extension qui permet d'exécuter des scripts dans ton navig
 Ouvre ton navigateur
 Va sur le store de ton navigateur :
 
-Chrome → chrome.google.com/webstore → recherche "Tampermonkey"
+Chrome / Brave → chrome.google.com/webstore → recherche "Tampermonkey"
 Firefox → addons.mozilla.org → recherche "Tampermonkey"
-Brave → même lien que Chrome
 
 
 Clique "Ajouter" ou "Installer"
@@ -35,7 +40,7 @@ Une fois terminé, Python est installé ✅
 Stockfish est le moteur d'échecs qui calcule les meilleurs coups.
 
 Va sur stockfishchess.org/download
-Clique sur Windows (ou ton système)
+Clique sur Windows
 Télécharge le fichier .zip
 Extrais le .zip — tu obtiens un fichier .exe
 Copie ce fichier .exe dans le dossier chess-server (le dossier de ce projet) ✅
@@ -45,7 +50,7 @@ Copie ce fichier .exe dans le dossier chess-server (le dossier de ce projet) ✅
 
 Sur cette page GitHub, clique sur le bouton vert "Code"
 Clique "Download ZIP"
-Extrais le ZIP où tu veux (ex: sur le Bureau)
+Extrais le ZIP où tu veux (ex : sur le Bureau)
 Tu obtiens un dossier chess-server avec tous les fichiers ✅
 
 
@@ -61,12 +66,11 @@ Clique "Installer" ✅
 
 Étape 6 — Lancer le serveur local
 Le serveur local fait le lien entre ton navigateur et Stockfish.
-Sur Windows :
 
 Ouvre le dossier chess-server
 Double-clique sur lancer.sh
 
-Si ça ne marche pas, ouvre PowerShell dans le dossier (clique sur la barre d'adresse de l'Explorateur, tape powershell, appuie sur Entrée) et tape :
+Si ça ne marche pas, ouvre PowerShell dans le dossier (clique sur la barre d'adresse de l'Explorateur Windows, tape powershell, appuie sur Entrée) et tape :
 python server.py
 
 
@@ -85,29 +89,29 @@ Une flèche verte indique le meilleur coup à jouer
 
 
 ⚙️ Options du panneau
-OptionDescriptionCoach ON/OFFActive/désactive l'analyse en temps réelAuto-play ON/OFFLe script joue les coups automatiquementNiveau StockfishDe 1 (facile) à 20 (niveau grand maître)Barre d'évaluationAffiche qui est en avantage dans la partie
+Coach ON/OFF — Active ou désactive l'analyse en temps réel.
+Auto-play ON/OFF — Le script joue les coups automatiquement à ta place.
+Niveau Stockfish — De 1 (analyse rapide et superficielle) à 20 (niveau grand maître, calcul long).
+Barre d'évaluation — Affiche qui est en avantage dans la partie. Plus la barre est blanche, mieux c'est pour les blancs. Plus elle est noire, mieux c'est pour les noirs.
 
 ❓ Problèmes fréquents
 Le panneau Chess Coach n'apparaît pas
-→ Vérifie que Tampermonkey est bien activé (icône en haut à droite du navigateur)
-→ Recharge la page chess.com
-Le point rouge reste rouge (serveur déconnecté)
-→ Le serveur Python n'est pas lancé — retourne à l'Étape 6
-→ Le point devient vert quand le serveur tourne correctement
+Vérifie que Tampermonkey est bien activé (clique sur l'icône en haut à droite du navigateur et vérifie que le script est bien "Activé"). Recharge ensuite la page chess.com.
+Le point reste rouge (serveur déconnecté)
+Le serveur Python n'est pas lancé. Retourne à l'Étape 6. Le point devient vert quand le serveur tourne correctement.
 La promotion de pion ne se fait pas automatiquement
-→ Assure-toi d'utiliser la version v9.5 du script
+Assure-toi d'utiliser la version v9.5 du script (le fichier chess-coach-v9_5_user.js).
 Stockfish introuvable au démarrage
-→ Vérifie que le fichier .exe de Stockfish est bien dans le dossier chess-server
-→ Le nom du fichier doit commencer par stockfish
+Vérifie que le fichier .exe de Stockfish est bien copié dans le dossier chess-server. Le nom du fichier doit commencer par stockfish.
 
 ⚠️ Avertissement
 Ce script est conçu pour s'entraîner contre des bots sur chess.com. L'utiliser en partie classée contre de vrais joueurs est contraire aux conditions d'utilisation de chess.com.
 
 📁 Contenu du projet
-chess-server/
-├── server.py                  # Serveur local Python
-├── chess.html                 # Interface web optionnelle
-├── lancer.sh                  # Script de démarrage rapide
-├── chess-coach-v9_5_user.js   # Script Tampermonkey
-├── README.md                  # Ce fichier
-└── stockfish.exe              # À télécharger séparément (trop lourd pour GitHub)
+
+server.py — Serveur local Python
+chess.html — Interface web optionnelle
+lancer.sh — Script de démarrage rapide
+chess-coach-v9_5_user.js — Script Tampermonkey à installer
+README.md — Ce fichier d'instructions
+stockfish.exe — À télécharger séparément sur stockfishchess.org (trop lourd pour GitHub)
