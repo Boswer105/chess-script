@@ -190,5 +190,13 @@ En mode auto-play, le script attend automatiquement la fin du calcul avant de jo
 
 ![Screenshot](screenshot.png)
 
+---
+
+## Calcul de précision 
+
+Ce script calcule également la précision en temps réel de votre adversaire et vous. 
+
+![imageprécision.png](imageprécision.png)
+
 
 
