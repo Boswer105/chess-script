@@ -202,6 +202,10 @@ Ce script calcule également la précision en temps réel de votre adversaire et
 
 ![imageprécision.png](imageprécision.png)
 
+---
+
+## Mode humain 
+
 Le mode humain simule un joueur humain fort qui fait de petites erreurs naturelles, au lieu de jouer parfaitement à chaque coup.
 Comment ça fonctionne :
 Quand le mode humain est activé avec l'auto-play, Stockfish analyse les 3 meilleurs coups disponibles à chaque position au lieu du seul meilleur. Ensuite, à chaque coup, un tirage aléatoire détermine lequel jouer :
@@ -213,6 +217,8 @@ Le 2e et 3e meilleur coup sont toujours des coups raisonnables — pas des blund
 Le délai de jeu est aussi rendu plus réaliste : entre 1.5 et 6 secondes par coup, avec 20% de chance de "réfléchir longtemps" (4 à 9 secondes), simulant les moments d'hésitation humaine.
 Impact sur la précision : avec le mode humain actif, votre précision affichée sera autour de 85-92% au lieu de 100%, ce qui est cohérent avec un niveau Grand Maître humain.
 Note : le mode humain nécessite le serveur local Stockfish pour fonctionner (point vert dans le panneau). Il n'est pas compatible avec le moteur WASM de secours.
+
+
 
 🔄 Rejouer Automatiquement
 La case à cocher "Rejouer automatiquement" dans le panneau permet d'enchaîner les parties sans intervention manuelle.
