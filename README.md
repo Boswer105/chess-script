@@ -197,14 +197,6 @@ En mode auto-play, le script attend automatiquement la fin du calcul avant de jo
 
 ---
 
-## Calcul de précision 
-
-Ce script calcule également la précision en temps réel de votre adversaire et vous. 
-
-![imageprécision.png](imageprécision.png)
-
----
-
 ## Mode humain 
 
 Le mode humain simule un joueur humain fort qui fait de petites erreurs naturelles, au lieu de jouer parfaitement à chaque coup.
